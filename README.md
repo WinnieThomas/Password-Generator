@@ -39,3 +39,6 @@ THEN the password is either displayed in an alert or written to the page
 ![Image3](https://github.com/WinnieThomas/Password-Generator/blob/main/Assets/Image%203.png)
 
 ![Image4](https://github.com/WinnieThomas/Password-Generator/blob/main/Assets/Image%204.png)
+
+## The Link To The Deployed application is:
+http://localhost:52330/Password-Generator/Develop/index.html
