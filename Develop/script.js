@@ -41,6 +41,29 @@ var UpperChars=["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P",
 var specialchars=["!","@","£","$","%","&","*","#"];
 var numberchars=["1","2","3","4","5","6","7","8","9"];
 
+var chars =[];
+
+//checkwhether the user selected the option as yes, then add values from the array
+
+if(options.hasLowerChars){
+  chars = chars.concat(LowerChars);
+}
+if(options.hasUpperChars){
+  chars = chars.concat(UpperChars);
+}
+if(options.hasSpecialChars){
+  chars = chars.concat(specialchars);
+}
+if(options.hasNumberChars){
+  chars = chars.concat(numberchars);
+}
+
+var password ="";
+for(var i=0; i<options.numberOfChars; i++){
+  password+=chars[Math.floor(Math.random()*chars.length)];
+}
+return(password);
+
 }
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
