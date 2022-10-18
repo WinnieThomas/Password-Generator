@@ -34,7 +34,7 @@ THEN the password is either displayed in an alert or written to the page
 
 ![Image1](https://github.com/WinnieThomas/Password-Generator/blob/main/Assets/Image%201.png?raw=true)
 
-
+![Image2](https://github.com/WinnieThomas/Password-Generator/blob/main/Assets/Image%202.png?raw=true)
 
 
 
